@@ -6,13 +6,13 @@ var input = [
 ]
 
 function dataHandling(input){
-    var print = ['Nomor ID: ', 'Nama Lengkap: ','TTL:','Hobi:'];
-    for (i=0; i<input.length; i++){
+    var print = ["Nomor ID: ", "Nama Lengkap: ","Lokasi:","TT:","Hobi:"];
+    for (var i=0; i<input.length; i++){
         var data = input[i];
-        for (j=0; j<data.length; j++){
+        for (var j=0; j<data.length; j++){
             console.log(print[j] + data[j]);
         }
-        console.log('')
+        console.log("")
     }
 }
 
