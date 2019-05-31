@@ -12,7 +12,7 @@ function dataHandling2(){
     
     var bulan = '';
     switch (tanggalSplit[1]){
-        case '01':
+    case '01':
         bulan = 'Januari'
         break;
     case '02': 
